@@ -34,7 +34,7 @@ const about = () => {
             concise list.
           </p>
 
-          <div className="mt-12 flex flex-wrap gap-12">
+          <div className="mt-12 flex flex-wrap gap-7">
             {skills.map((skill) => (
               <div className="block-container w-20 h-20">
                 <div className="btn-front rounded-xl flex justify-center items-center">
