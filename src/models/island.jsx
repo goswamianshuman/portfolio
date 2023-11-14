@@ -118,9 +118,27 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   useEffect(() => {
     const canvas = gl.domElement;
 
+    const handleTouchStart = (e) => {
+      handlePointerDown(e);
+    };
+
+    const handleTouchEnd = (e) => {
+      handlePointerUp(e);
+    };
+
+    const handleTouchMove = (e) => {
+      handlePointerMove(e);
+    };
+
     canvas.addEventListener("pointerdown", handlePointerDown);
     canvas.addEventListener("pointerup", handlePointerUp);
     canvas.addEventListener("pointermove", handlePointerMove);
+
+    // mobile
+    canvas.addEventListener("touchstart", handleTouchStart);
+    canvas.addEventListener("touchend", handleTouchEnd);
+    canvas.addEventListener("touchmove", handleTouchMove);
+
     window.addEventListener("keydown", handleKeyDown);
     window.addEventListener("keyup", handleKeyUp);
 
@@ -128,6 +146,12 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
       canvas.removeEventListener("pointerdown", handlePointerDown);
       canvas.removeEventListener("pointerup", handlePointerUp);
       canvas.removeEventListener("pointermove", handlePointerMove);
+
+      // mobile
+      canvas.removeEventListener("touchstart", handleTouchStart);
+      canvas.removeEventListener("touchend", handleTouchEnd);
+      canvas.removeEventListener("touchmove", handleTouchMove);
+
       window.removeEventListener("keydown", handleKeyDown);
       window.removeEventListener("keyup", handleKeyUp);
     };
