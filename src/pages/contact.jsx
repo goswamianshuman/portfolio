@@ -98,6 +98,7 @@ const contact = () => {
                   onFocus={handleFocus}
                   onBlur={handleBlur}
                   className="w-full bg-transparent rounded placeholder:text-white/50 border border-gray-300/10 focus:border-indigo-500 text-base outline-none text-white/60 py-1 px-5 leading-8 transition-colors duration-200 ease-linear"
+                  required
                 />
               </div>
 
@@ -118,6 +119,7 @@ const contact = () => {
                   onFocus={handleFocus}
                   onBlur={handleBlur}
                   className="w-full bg-transparent rounded placeholder:text-white/50  border border-gray-300/10 focus:border-indigo-500 text-base outline-none text-white/60 py-1 px-5 leading-8 transition-colors duration-200 ease-linear"
+                  required
                 />
               </div>
 
@@ -137,6 +139,7 @@ const contact = () => {
                   onFocus={handleFocus}
                   onBlur={handleBlur}
                   className="w-full bg-transparent rounded placeholder:text-white/50  border border-gray-300/10 focus:border-indigo-500 text-base outline-none text-white/60 py-1 px-5 leading-8 transition-colors duration-200 ease-linear min-h-[150px]"
+                  required
                 ></textarea>
               </div>
 
