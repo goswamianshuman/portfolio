@@ -138,6 +138,10 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #e81cff -20%, #40c9ff 120%);
 }
 
+.block-container .btn-back-purple {
+  background: linear-gradient(135deg, #ad18f2 -20%, #40ffef 120%);
+}
+
 .block-container .btn-back-black {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
 }
@@ -176,4 +180,9 @@ body:has(.card[data-color="green"]:hover) {
 
 .neo-brutalism-white {
   background: #fff;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }

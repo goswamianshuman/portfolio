@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import Blogs from "../components/blogs";
 
 const about = () => {
   return (
@@ -111,6 +112,10 @@ const about = () => {
             </VerticalTimeline>
           </div>
         </div>
+
+        <hr className="border-black/30" />
+
+        <Blogs />
 
         <hr className="border-black/30" />
 

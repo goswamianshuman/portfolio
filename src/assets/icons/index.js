@@ -45,6 +45,7 @@ import appwrite from "./appwrite.png";
 import sanity from "./sanity.png";
 import strapi from "./strapi.png";
 import revedor from "./revedor.png";
+import infinity from "./infinity.png";
 
 export {
   css,
@@ -63,7 +64,7 @@ export {
   react,
   redux,
   sass,
-  revedor, 
+  revedor,
   tailwindcss,
   typescript,
   strapi,
@@ -94,4 +95,5 @@ export {
   hulu,
   bandbuddy,
   supabase,
+  infinity,
 };

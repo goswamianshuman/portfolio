@@ -37,6 +37,7 @@ import {
   typescript,
   webflow,
   whatsapp,
+  infinity,
 } from "../assets/icons";
 
 export const skills = [
@@ -242,6 +243,14 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: infinity,
+    theme: "btn-back-purple",
+    name: "Infinote",
+    description:
+      "Experience seamless collaboration and productivity with INFINOTE – a fullstack Notion replica powered by Next.js, Appwrite, and shadcn-ui, Connect your thoughts, files, and strategies in a unified space.",
+    link: "https://noteinfi.vercel.app/",
+  },
+  {
     iconUrl: bandbuddy,
     theme: "btn-back-blue",
     name: "Bandbuddy.ai",
@@ -279,5 +288,17 @@ export const projects = [
     description:
       "Developed a full-stack clone of Medium, incorporating the use of Sanity and integrating a comment feature into the blogs, enhancing the overall user experience and interaction.",
     link: "https://github.com/goswamianshuman/Medium_Clone",
+  },
+];
+
+export const blogs = [
+  {
+    title:
+      "Building Your Notion Replica: A Quick Guide (using Next.js, Appwrite, and Shadcn-ui)",
+    des: "Hey, fellow tech enthusiasts! 🚀 Get ready to embark on a coding journey with me... ",
+    imgUrl:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--06jD-F5e--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xdle6zm4qikuv9lh93us.jpg",
+    tags: ["next.js", "appwrite", "shadcn-ui"],
+    href: "https://dev.to/goswamianshuman/building-your-notion-replica-a-quick-guide-using-nextjs-appwrite-and-shadcn-ui-35po",
   },
 ];
