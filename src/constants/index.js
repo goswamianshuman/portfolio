@@ -301,4 +301,12 @@ export const blogs = [
     tags: ["next.js", "appwrite", "shadcn-ui"],
     href: "https://dev.to/goswamianshuman/building-your-notion-replica-a-quick-guide-using-nextjs-appwrite-and-shadcn-ui-35po",
   },
+  {
+    title: "Jamstack Development: Revolutionizing Web Development",
+    des: "Hey, devs! 🚀 Welcome to the tech era where new innovations pop up every day! 🌐... ",
+    imgUrl:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--LcTaedj6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wcnims5z0zo37emugjir.png",
+    tags: ["javascript", "jamstack", "buildinpublic"],
+    href: "https://dev.to/goswamianshuman/jamstack-development-revolutionizing-web-development-3npc",
+  },
 ];
